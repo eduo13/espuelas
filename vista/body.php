@@ -21,12 +21,12 @@
 
 
 include "menu.php"; 
-// include "banner_principal.php";
+include "banner_principal.php";
 include "criador/login.html";
 
-// include "about.php";
+include "about.php";
 
-// include "ejemplares.php";
+include "ejemplares.php";
 
 
 

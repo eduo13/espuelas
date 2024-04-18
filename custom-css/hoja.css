@@ -454,7 +454,7 @@ header{
 
    .btn.login:hover{
     --timing: linear(0, 0.3, 0.75, 1);
-    background-color: #F4EEEE;
+    background-color: #89c5f7;
     border-image-source: conic-gradient(from var(--a), rgb(36, 30, 207), rgb(188, 21, 41), rgb(192, 226, 240));
     border-image-slice: 1 1 1 1;
     border-image-width: 0.25rem;
