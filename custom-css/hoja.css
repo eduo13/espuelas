@@ -6,12 +6,12 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 body{
     font-family: 'Comfortaa', sans-serif;
-    margin: 50px; 
+    margin: 50px;
     display: flex;
     justify-content: center;
      overflow-x: hidden;
@@ -22,8 +22,9 @@ body{
 }
 .wrapper{
  width: 100vw;
- height: 100vw; 
+ height: 100vw;
 }
+
 header{
     position: absolute;
     align-items: center;
@@ -36,7 +37,7 @@ header{
 
  font-size: 25px;
  text-decoration: none;
- 
+
 
 }
 
@@ -78,8 +79,8 @@ header{
 }
 
 .carousel .list .item .content .nombre{
-    font-family:"Bebas Neue", sans-serif; 
-     
+    font-family:"Bebas Neue", sans-serif;
+
     font-weight: bold;
     letter-spacing: 5px;
     font-size: 3em;
@@ -195,7 +196,7 @@ header{
        border-radius: 20px;
        animation: showImage 0.5s linear 1 forwards;
    }
- 
+
    /* Imágenes slider */
    @keyframes showImage{
     from {
@@ -214,7 +215,7 @@ header{
       bottom: 0;
       border-radius: 0;
   }
-    
+
    }
    .carousel.next .list .item:nth-child(1) img {
     /*Aquíaplicamosladuracióndelaanimación*/
@@ -227,7 +228,7 @@ header{
     animation: outImage 1s linear 1 forwards;
     -webkit-animation: outImage 1s linear 1 forwards;
 }
-  
+
    .carousel.next .thumbnail .item:nth-child(1) {
     width: 0;
     overflow: hidden;
@@ -369,7 +370,7 @@ header{
         z-index: 1000; /* Asegura que esté detrás del formulario modal */
     }
      .container-log {
-      
+
         position: absolute;
         width: 400px;
         height: 440px;
@@ -384,17 +385,17 @@ header{
         overflow: hidden;
         transform: scale(0) ;
          top: 50%;
-        left: 50%; 
-     
+        left: 50%;
+
         transition: height .2s ease;
      }
-   
+
     .active-popup{
-        
+
         transform: scale(1);
         z-index: 1001;
-        
-        
+
+
         transform: translate(-50%, -50%);
      }
      .container-log  .login-box{
@@ -403,7 +404,7 @@ header{
 
      }
      .container-log  .icon-close{
-       
+
         position: absolute;
         top: 0;
         right: 0;
@@ -432,7 +433,7 @@ header{
         border-bottom: 2px solid #555;
         margin: 30px 0;
      }
-    
+
      .input-box label{
       font-size: 16px;
       color: #F57D1F;
@@ -447,10 +448,10 @@ header{
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
 
-  
+
    }
 
-  
+
 
    .btn.login:hover{
     --timing: linear(0, 0.3, 0.75, 1);
@@ -458,7 +459,7 @@ header{
     border-image-source: conic-gradient(from var(--a), rgb(36, 30, 207), rgb(188, 21, 41), rgb(192, 226, 240));
     border-image-slice: 1 1 1 1;
     border-image-width: 0.25rem;
-    
+
     animation: move 1s infinite var(--timing);
     &.fill {
       border-image-slice: 1 1 1 1 fill;
@@ -475,7 +476,7 @@ header{
   initial-value: 0deg;
 }
      /* HOME */
-     
+
 
      section {
       min-height: 100vh;
@@ -489,8 +490,8 @@ header{
       -moz-transition:all 2s    ;
       -ms-transition:all 2s    ;
       -o-transition:all 2s    ;
-    
-} 
+
+}
 
 
   /* Las imagenes aparecen al desplazar la pagina */
@@ -503,7 +504,7 @@ header{
   -moz-transition: all 2s;
   -ms-transition: all 2s;
   -o-transition: all 2s;
-  
+
  }
 
  .show {
@@ -538,7 +539,7 @@ header{
       .contenido img{
         width: 100%;
         /* display: flex; */
-      
+
       }
       .image-fluid{
         width: 100%;
@@ -549,7 +550,7 @@ header{
         margin: 20px;
         padding: 10px;
       }
-     
+
       .txt{
         position: relative;
       }
@@ -609,24 +610,24 @@ header{
   to {
       opacity: 1; /* Termina con opacidad 1 */
   }
-}     
-    
+}
+
  @keyframes txtanima {
   0% {
     opacity: 0;
     /*Inicialmente,manténlaopacidaden0*/transform: translateY(0);
-   
+
 }
   100% {
     opacity: 1;
     /*Alfinaldelaanimación,establecelaopacidaden1*/transform: translateY(50px);
-    
+
 }
-} 
+}
 
 
  /**************/
-     
+
   .img_one{
     mask-image: url("../img/mask-img.svg");
     mask-size: cover;
@@ -635,17 +636,17 @@ header{
     width: 25%;
     left: 200px;
     transform:translate(-306px,142px) ;
-    
+
 
   }
-  
+
 
   .fadeInLeft {
     /* Define la animación para zoomInRight */
     animation-name: fadeInLeft_intro;
     animation-duration: 4s; /* Duración de la animación */
   }
-  
+
   @keyframes fadeInLeft_intro {
     from {
       opacity: 0;
@@ -674,10 +675,10 @@ header{
     width: 25%;
     margin-top: 20px;
     transform: translate(143%);
-    
-   
+
+
 }
-  
+
 
 
    .slideInDown {
@@ -686,7 +687,7 @@ header{
     animation-duration: 4s; /* Duración de la animación */
     animation-delay: 2s;
   }
-  
+
   @keyframes slideInDown_intro {
     from {
       opacity: 0;
@@ -727,7 +728,7 @@ header{
 
 
 
-/* 
+/*
  MEDIA QUERIES */
 
 
@@ -738,12 +739,12 @@ header{
       width: 100%;
     }
     .first{
-     
+
       height: 87vw;
       /* width: auto; */
     }
     .img-ini{
-     
+
       max-width: 74%;
       height: 86vw;
       transform: translate(18%);
@@ -788,7 +789,7 @@ header{
    h1{
     font-size: 26px;
    margin-left: 3px;
-    
+
    }
    .two {
     width: 33%;
@@ -804,15 +805,15 @@ header{
     /* width: 30%; */
     margin-top: 0;
     clip-path: circle(42.47%);
-   
-    
+
+
    }
  }
 /* Escritorio pequeño / tablet */
 @media only screen and (min-width: 768px) and (max-width: 991px){
   .container .first{
     margin: 0;
- 
+
    }
    .img-ini{
     height: 59vw;
@@ -823,7 +824,7 @@ header{
     -o-transform: translate(-3%);
     max-width: 107%;
 }
- 
+
    .container-fluid .row {
      /* flex-direction: column; */
      display: flex;
@@ -839,7 +840,7 @@ header{
 }
     .iright {
     width: auto;
-     
+
     }
     .title{
       width: 50%;
@@ -853,12 +854,12 @@ header{
 }
     h1{
      font-size: 30px;
-   
-     
+
+
     }
     .two {
      width: 23%;
-   
+
      order: 3;
      transform: translate(180%, -10%);
      -webkit-transform: translate(180%, -10%);
@@ -869,14 +870,14 @@ header{
     .ileft {
      /* width: 30%; */
      margin-top: 0;
-    
-     
+
+
     }
 }
 
 
    /* Escritorio grande */
-/*    
+/*
 @media  (min-width: 992px) and (max-width: 1199px){
   .container .first{
    margin: 0;
@@ -902,7 +903,7 @@ header{
 }
    .iright {
    width: auto;
-    
+
    }
    .title{
      width: 50%;
@@ -916,8 +917,8 @@ header{
 }
    h1{
     font-size: 30px;
-  
-    
+
+
    }
    .two {
     width: 23%;
@@ -932,8 +933,8 @@ header{
    /* .ileft { */
     /* width: 30%; */
     /* margin-top: 0;
-   
-    
+
+
    }
 } */
 
@@ -961,7 +962,7 @@ header{
         align-items: center;
         justify-content: center;
         align-items: center;
-        
+
      }
      .parallax-inner{
         padding: 10% 0;
@@ -971,7 +972,7 @@ header{
       margin-top: 20px;
       transform: translateX(121px);
       margin-bottom: 20px;
-     
+
 }
 
    /* /ABOUT */
@@ -985,7 +986,7 @@ header{
       -webkit-mask-size:cover  ;
       margin-bottom: 20px;
    }
-    
+
     .introduccion{
       margin-top: 30px;
       text-align: justify;
@@ -1015,14 +1016,14 @@ header{
 
     /* ANIMACION IMAGEN ABOUT */
 
-  
+
    .about-img{
     margin-top: 30px;
     width: 50%;
     /*position: absolute;*/
-   
+
     transform:translate(113px,30px) ;
-   
+
     border: #6e736d 10px double;
   }
 
@@ -1037,13 +1038,13 @@ header{
     opacity: 0;
     transform: scale(0.5);
     transform:translateX(175%);
-  
+
 }
   to {
     opacity: 1;
     transform: scale(1);
     transform:translate(113px,30px) ;
-   
+
 }
 }
 
