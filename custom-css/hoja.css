@@ -8,6 +8,9 @@
     padding: 0;
     
 }
+html body {
+  min-height: 100%;
+}
 body{
     font-family: 'Comfortaa', sans-serif;
     margin: 50px; 
@@ -19,7 +22,10 @@ body{
      background-size: contain;
      background-repeat: repeat; */
 }
+.wrapper{
+ position: relative;
 
+}
 header{
     position: absolute;
     align-items: center;
@@ -428,8 +434,15 @@ header{
         border-bottom: 2px solid #555;
         margin: 30px 0;
      }
-
-
+    
+     .input-box label{
+      font-size: 16px;
+      color: #F57D1F;
+     }
+     .recordar.rec-text{
+      font-size: 16px;
+      color: #F57D1F;
+     }
 
      /* HOME */
      
@@ -833,6 +846,7 @@ header{
 
 
    /* Escritorio grande */
+/*    
 @media  (min-width: 992px) and (max-width: 1199px){
   .container .first{
    margin: 0;
@@ -841,13 +855,13 @@ header{
   .img-ini{
    height: 59vw;
    transform: translate(1%);
-  }
+  } */
 
-  .container-fluid .row {
+  /* .container-fluid .row { */
     /* flex-direction: column; */
-    display: flex;
-   }
-   .one {
+    /* display: flex;
+   } */
+   /* .one {
     width: 23%;
     order: 1;
     transform: translate(65%, 54%);
@@ -884,14 +898,14 @@ header{
     -moz-transform: translate(-196%, -57%);
     -ms-transform: translate(-196%, -57%);
     -o-transform: translate(-196%, -57%);
-}
-   .ileft {
+} */
+   /* .ileft { */
     /* width: 30%; */
-    margin-top: 0;
+    /* margin-top: 0;
    
     
    }
-}
+} */
 
 
      .parallax h1{
@@ -1011,3 +1025,7 @@ header{
 
 
 
+/* FOOTER */
+/* .pie{
+ width: 100rem;
+} */

@@ -39,9 +39,7 @@
             </li>
             <li class="nav-item">
             
-            <!-- <div class="modal fade" id="modalLoginAvatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-              aria-hidden="true">  <a id="button-info" role='button' class="btn wow fadeIn"  data-toggle="modal" data-target="#login-btn"> -->
-                <!-- <i class="fa-brands fa-jenkins">H</i></a>   -->
+           
              
                 
 
@@ -54,5 +52,5 @@
     </nav>
 
     </div>
-<script src="../js/script.js"></script>       
+
                         

@@ -5,7 +5,7 @@
      
         <div class="row">
           <section class="first hidden"> 
-            <img id="img-ini " class="img-fluid img-ini" src="../img/presentacion.png" alt=""> 
+            <img id="img-ini " class="img-fluid img-ini" src="img/presentacion.png" alt=""> 
          </section>  
                                <!-- <div   class="parallax">
             
@@ -18,7 +18,7 @@
              <div class="container-fluid hidden">
                   <div class="row">
                    <div class="col-lg-4 col-md-4 col-12  img_one wow fadeInLeft">
-                     <img class="img-fluid iright " id="img-right"  src="../img/right-img.jpeg" alt="">
+                     <img class="img-fluid iright " id="img-right"  src="img/right-img.jpeg" alt="">
                     </div>
                      
                     <div class="col-lg-4 col-md-4 col-12 txt text-center  title animate">
@@ -32,7 +32,7 @@
                        <!-- <h1>GAHEMOR</h1> -->
                     </div>
                   <div class="col-md-4 col-lg-4 col-12  img_two wow slideInDown">
-                    <img class="img-fluid ileft " id="img-left" src="../img/right-img.jpeg" alt="">
+                    <img class="img-fluid ileft " id="img-left" src="img/right-img.jpeg" alt="">
                  </div>
                  </div>
                </div>
@@ -66,7 +66,7 @@
   dedico una buena parte de mi tiempo y entusiasmo para mantenerlos en óptimas  condiciones. </p>
         </div>
         <div class="col-lg-6 col-md-6 col-6 wow zoomInRight">
-           <img class="img-fluid about-img " id="parallax-img" src="../img/right-img.jpeg" alt="">
+           <img class="img-fluid about-img " id="parallax-img" src="img/right-img.jpeg" alt="">
                      
           </div>
     </div>
