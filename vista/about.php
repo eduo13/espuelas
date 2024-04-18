@@ -7,14 +7,7 @@
           <section class="first hidden"> 
             <img id="img-ini " class="img-fluid img-ini" src="img/presentacion.png" alt=""> 
          </section>  
-                               <!-- <div   class="parallax">
-            
-         
-                  <h1>GAHEMOR</h1>
-         
-                  <img class="img1 image-fluid" id="img-right"  src="../img/right-img.jpeg" alt="">
-                   <img class="img2 image-fluid" id="img-left" src="../img/right-img.jpeg" alt="">
-              </div> -->
+                             
              <div class="container-fluid hidden">
                   <div class="row">
                    <div class="col-lg-4 col-md-4 col-12  img_one wow fadeInLeft">
@@ -77,4 +70,3 @@
  
  </section>      
  
- <!-- <script defer src="../js/script.js"></script> -->

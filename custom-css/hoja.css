@@ -8,9 +8,7 @@
     padding: 0;
     
 }
-html body {
-  min-height: 100%;
-}
+
 body{
     font-family: 'Comfortaa', sans-serif;
     margin: 50px; 
@@ -23,8 +21,8 @@ body{
      background-repeat: repeat; */
 }
 .wrapper{
- position: relative;
-
+ width: 100vw;
+ height: 100vw; 
 }
 header{
     position: absolute;
@@ -443,7 +441,39 @@ header{
       font-size: 16px;
       color: #F57D1F;
      }
+   .btn.login{
+  background-color: #eee;
+  border-image-source: conic-gradient(from var(--a), rgb(15 0 151), #006b80, #0e172e);
+  border-image-slice: 1 1 1 1;
+  border-image-width: 0.25rem;
 
+  
+   }
+
+  
+
+   .btn.login:hover{
+    --timing: linear(0, 0.3, 0.75, 1);
+    background-color: #F4EEEE;
+    border-image-source: conic-gradient(from var(--a), rgb(36, 30, 207), rgb(188, 21, 41), rgb(192, 226, 240));
+    border-image-slice: 1 1 1 1;
+    border-image-width: 0.25rem;
+    
+    animation: move 1s infinite var(--timing);
+    &.fill {
+      border-image-slice: 1 1 1 1 fill;
+    }
+ }
+ @keyframes move {
+  from { --a: 0deg; }
+  to { --a: 360deg; }
+}
+
+@property --a {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
      /* HOME */
      
 
