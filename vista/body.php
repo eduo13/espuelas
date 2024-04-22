@@ -20,13 +20,8 @@
 <?php
 
 
-<<<<<<< HEAD
-include "menu.php";
-// include "banner_principal.php";
-=======
 include "menu.php"; 
 include "banner_principal.php";
->>>>>>> 60d2f7df98fa8b951681ad56988e6440682d2654
 include "criador/login.html";
 
 include "about.php";

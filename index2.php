@@ -111,7 +111,7 @@ include "vista/criador/login.html";
         <!-- FIN CODIGO MENU -->
 
         <!-- CODIGO BANNER PRINCIPAL -->
-<!--         <div class="carousel">
+        <div class="carousel">
             <div class="list">
                 <div class="item">
                 <img src="img/ejempli-image.jpg" alt="">
@@ -169,12 +169,12 @@ include "vista/criador/login.html";
                 <button id="next"> > </button>
             </div>
             <div class="time"></div>
-        </div> -->
+        </div> 
 
         <!-- FIN CODIGO BANNER PRINCIPAL -->
 
         <!-- CODIGO ABOUT -->
-<!--         <div class="container">
+         <div class="container">
             <div class="row">
                 <section class="first hidden">
                 <img id="img-ini " class="img-fluid img-ini" src="../img/presentacion.png" alt="">
@@ -229,11 +229,11 @@ include "vista/criador/login.html";
             </div>
             </div>
             <br>
-        </section> -->
+        </section> 
         <!-- FIN CODIGO ABOUT -->
 
         <!-- CODIGO EJEMPLARES -->
-<!--         <section  class="" id="ejemplares">
+         <section  class="" id="ejemplares">
 
         <div class="parallax-1 img_animals wow fadeInUp" >
             <h2>Ejemplares</h2>
@@ -261,7 +261,7 @@ include "vista/criador/login.html";
         </div>
         <br>
 
-        </section> -->
+        </section>
         <!-- FIN CODIGO EJEMPLARES -->
 
         <!-- CODIGO FOOTER -->

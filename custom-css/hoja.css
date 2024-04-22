@@ -11,13 +11,8 @@
 }
 
 body{
-<<<<<<< HEAD
-    font-family: 'Comfortaa', sans-serif;
-    margin: 50px;
-=======
     font-family: 'Karla', sans-serif;
     margin: 50px; 
->>>>>>> 60d2f7df98fa8b951681ad56988e6440682d2654
     display: flex;
     justify-content: center;
      overflow-x: hidden;
