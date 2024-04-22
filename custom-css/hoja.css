@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Signika+Negative:wght@300&family=Sofia+Sans+Extra+Condensed&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Signika+Negative:wght@300&family=Sofia+Sans+Extra+Condensed&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300..700&family=Roboto&family=Signika+Negative:wght@300&family=Sofia+Sans+Extra+Condensed&family=Vollkorn+SC:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Noto+Sans:wght@600&family=Quantico&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@
 }
 
 body{
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Karla', sans-serif;
     margin: 50px; 
     display: flex;
     justify-content: center;
@@ -442,7 +443,7 @@ header{
       color: #F57D1F;
      }
    .btn.login{
-  background-color: #eee;
+  background-color: #c7e7f3;
   border-image-source: conic-gradient(from var(--a), rgb(15 0 151), #006b80, #0e172e);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
