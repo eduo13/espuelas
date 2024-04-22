@@ -1,20 +1,21 @@
 <?php
-echo "Hola";
-define('USER', 'xioval');
+class Conexiondb
+{
+    private static $instance = NULL;
 
-define('PASSWORD', 'ainihon');
+    public static function conectar()
+    {
+        try {
 
-define('HOST', 'localhost');
+            if (!isset(self::$instance)) {
+                $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
+                self::$instance = new PDO('mysql:host=localhost;dbname=criadero', 'root', '', $pdo_options);
+            }
+            return self::$instance;
 
-define('DATABASE', 'criadero');
-try {
-
-    $connection = new PDO("mysql:host=".HOST.";dbname=".DATABASE, USER, PASSWORD);
-
-} catch (PDOException $e) {
-
-    exit("Error: " . $e->getMessage());
+        } catch (PDOException $e) {
+            echo 'error de conexión a bd: ' . $e;
+        }
+    }
 
 }
-
-?>
