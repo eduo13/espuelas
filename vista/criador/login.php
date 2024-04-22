@@ -2,9 +2,7 @@
 /**
 * Gestión del login del usuario
 */
-if(session_status() === PHP_SESSION_NONE){
-   session_start();
-}
+include '../../extra/sesion.php';
 
 include '../../extra/comprobaciones.php';
 
@@ -14,7 +12,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
 
 }else if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       if(checkLogin()){
-         echo 'login OK';
+         header('location: home.php');
       }else{
          session_destroy();
          header('location: ../../index.php');
