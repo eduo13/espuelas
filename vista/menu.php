@@ -1,6 +1,6 @@
-<?php
-include 'extra/session.php';
-?>
+<!-- <?php
+//include 'extra/session.php';
+?> -->
 <div class="container">
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
@@ -33,29 +33,18 @@ include 'extra/session.php';
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Contacto</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">..</a>
-            </li>
             <?php //solo mostramos acceso login si no existe sesion
             if(!isset($_SESSION['dni'])) {
               echo '<li class="nav-item">
                 <button id="btn-modal" class="btn-login"><i class="fa-brands fa-jenkins"></i></button>
               </li>';
             }else{
-              echo '<li class="nav-item"><a class="nav-link text-white" href="vista/criador/logout.php">Logout</li>';
+              echo '<li class="nav-item">
+              <a class="nav-link text-white" href="logout.php">Logout</li>';
             }
             ?>
-<!--             <li class="nav-item">
-                <button id="btn-modal" class="btn-login"><i class="fa-brands fa-jenkins"></i></button>
-              </li> -->
             <li class="nav-item">
-            
-           
-             
-                
-
-           
-
+              <a class="nav-link text-white" href="#">..</a>
             </li>
           </ul>
         </div>

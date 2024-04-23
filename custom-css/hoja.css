@@ -1050,7 +1050,13 @@ header{
 }
 
 
-
+.bodyHome {
+  margin-top: 0;
+  position: relative;
+  height: 50vw;
+  background-color: #006b80;
+  color: black;
+}
 
 
 

@@ -21,7 +21,7 @@ Mi comienzo fue comprando una yegua preñada y después  de 14 años lidiando co
 dedico una buena parte de mi tiempo y entusiasmo para mantenerlos en óptimas  condiciones. </p>
     </div>
     <div class="col-lg-6 col-md-6 col-6 wow zoomInRight">
-       <img class="img-fluid about-img " id="parallax-img" src="img/right-img.jpeg" alt="">
+       <img class="img-fluid about-img " id="parallax-img" src="../../img/right-img.jpeg" alt="">
                  
       </div>
 </div>

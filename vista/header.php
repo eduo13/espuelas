@@ -17,21 +17,19 @@
     <meta name="keywords" content="Gaemor Criaderos de caballo chileno">
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
    
 
-    <link rel="stylesheet" type="text/css" href="custom-css/hoja.css">
-    <script src="js/wow.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../custom-css/hoja.css">
+    <script src="../../js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     <script defer src="js/script.js"></script>
-     <script src="js/carousel.js"></script>
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
