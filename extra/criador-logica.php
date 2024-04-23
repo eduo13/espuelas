@@ -1,7 +1,5 @@
 <?php 
-if(session_status() === PHP_SESSION_NONE){
-    session_start();
-}
+include '../../extra/session.php';
 include '../../modelo/criador-model.php';
 /**
  * comprobamos que dni y password estan correctamente formados

@@ -182,7 +182,9 @@ function criadorPorDni($dni)
     if ($pdo != null) {
 
         $stmt = $pdo->prepare("SELECT * FROM criador where dni = :dni");
-        $stmt->execute([':dni' => $dni]);
+        $stmt->bindParam(":dni", $dni, PDO::PARAM_STR);
+        $stmt->execute();
+
         $rows = $stmt->rowCount();
         if ($rows === 1) {
             $datos = $stmt->fetch(\PDO::FETCH_ASSOC);//cargamos en datos el resultado

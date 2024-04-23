@@ -1,4 +1,5 @@
 <?php
+include '../../extra/definiciones.php';
 class Conexiondb
 {
     private static $instance = NULL;
@@ -9,7 +10,11 @@ class Conexiondb
 
             if (!isset(self::$instance)) {
                 $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
-                self::$instance = new PDO('mysql:host=localhost;dbname=criadero', 'root', '', $pdo_options);
+                self::$instance = new PDO(
+                    'mysql:host=' . HOST . ';dbname=' . DBNAME, 
+                    USER, 
+                    PASSWORD, 
+                    $pdo_options);
             }
             return self::$instance;
 
