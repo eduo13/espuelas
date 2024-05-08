@@ -2,7 +2,7 @@
 include '../../extra/session.php';
 
 //comprobamos que hay sesion antes de eliminarla
-if(isset($_SESSION) && isset($_SESSION['dni'])){
+if(isset($_SESSION)){
     session_destroy();
     $_SESSION = [];
     header('Location: ../../index.php');

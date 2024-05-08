@@ -12,7 +12,8 @@
 
 body{
     font-family: 'Karla', sans-serif;
-    margin: 50px; 
+    margin: 0px; 
+    /* margin: 50px; */ 
     display: flex;
     justify-content: center;
      overflow-x: hidden;
@@ -23,7 +24,7 @@ body{
 }
 .wrapper{
  width: 100vw;
- height: 100vw;
+ /* height: 100vw; */
 }
 
 header{
@@ -1048,19 +1049,6 @@ header{
 
 }
 }
-
-
-.bodyHome {
-  margin-top: 0;
-  position: relative;
-  height: 50vw;
-  background-color: #006b80;
-  color: black;
-}
-
-
-
-
 
 
 /* FOOTER */

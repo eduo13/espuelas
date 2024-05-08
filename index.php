@@ -51,7 +51,7 @@ include 'extra/session.php';
         <!-- CODIGO MENU -->
         <?php 
             //incluimos login.thml solo si no existe sesion
-            if(!isset($_SESSION['dni'])){
+            if(!isset($_SESSION['criador']['dni'])){
                 include 'vista/criador/login.html';
             }
         ?>
@@ -91,7 +91,7 @@ include 'extra/session.php';
                                 <a class="nav-link text-white" href="#">..</a>
                             </li>
                             <?php //solo mostramos acceso login si no existe sesion
-                                if(!isset($_SESSION['dni'])) {
+                                if(!isset($_SESSION['criador']['dni'])) {
                                 echo '<li class="nav-item">
                                     <button id="btn-modal" class="btn-login"><i class="fa-brands fa-jenkins"></i></button>
                                 </li>';

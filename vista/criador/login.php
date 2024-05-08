@@ -11,11 +11,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
    //si check correcto..
    if(checkLogin()){
          header('location: home.php');
+         //echo $_SESSION['criador']['dni'];
    }//si error login..
    else{
       //session_destroy();
       header('location: ../../index.php');
-      //header('location: ../pagina_error.php');
+
    }
    
 }else{
